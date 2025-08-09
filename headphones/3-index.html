@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Headphones — Hero, What We Do, Our Results & Contact Us</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="3-styles.css">
+  <link rel="stylesheet" href="assets/icons/holberton_school-icon.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="#" class="logo" aria-label="Homepage">
+        <img src="assets/images/logo_headphones.png" alt="Headphones logo" width="48" height="48">
+        <span class="brand-name">Headphones</span>
+      </a>
+
+      <nav class="nav" aria-label="Main Navigation">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About</a>
+        <a class="btn" href="#">Shop</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero__content">
+          <h1 id="hero-title" class="hero__title">Experience sound the way it was meant to be</h1>
+          <p class="hero__copy">Premium drivers, comfortable fit — crafted for long listening sessions.</p>
+          <a class="btn" href="#">Buy now</a>
+        </div>
+
+        <div class="hero__image" role="img" aria-label="Headphones product image">
+          <img src="assets/images/headphones_hero_1.jpg" alt="Headphones product">
+        </div>
+      </div>
+    </section>
+
+    <!-- What we do -->
+    <section class="what-we-do" aria-labelledby="what-we-do-title">
+      <div class="container">
+        <h2 id="what-we-do-title" class="section-title">What we do...</h2>
+        <p class="section-subtitle">We bring high-quality sound experiences to every listener, everywhere.</p>
+        <div class="features">
+          <div class="feature">
+            <span class="holberton_school-icon-ic_sound feature-icon" aria-hidden="true"></span>
+            <h3 class="feature-title">High-Quality Audio</h3>
+            <p class="feature-desc">Crystal clear sound with deep bass and crisp highs for your music, movies, and calls.</p>
+          </div>
+          <div class="feature">
+            <span class="holberton_school-icon-ic_music feature-icon" aria-hidden="true"></span>
+            <h3 class="feature-title">Music Production</h3>
+            <p class="feature-desc">Trusted by top music producers and artists for creating chart-topping tracks.</p>
+          </div>
+          <div class="feature">
+            <span class="holberton_school-icon-ic_headphones feature-icon" aria-hidden="true"></span>
+            <h3 class="feature-title">Comfort & Design</h3>
+            <p class="feature-desc">Ergonomic fit and stylish design so you look and feel good while listening.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our results -->
+    <section class="our-results" aria-labelledby="our-results-title">
+      <div class="container">
+        <h2 id="our-results-title" class="section-title">Our results</h2>
+        <p class="section-subtitle">Numbers that speak for themselves</p>
+        <div class="results-grid">
+          <div class="result-card">
+            <span class="result-number">+2,000</span>
+            <span class="result-label">Projects Completed</span>
+          </div>
+          <div class="result-card">
+            <span class="result-number">+1,500</span>
+            <span class="result-label">Happy Clients</span>
+          </div>
+          <div class="result-card">
+            <span class="result-number">+300</span>
+            <span class="result-label">Awards Won</span>
+          </div>
+          <div class="result-card">
+            <span class="result-number">+50</span>
+            <span class="result-label">Countries Reached</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact us -->
+    <section class="contact-us" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 id="contact-title" class="section-title">Contact us</h2>
+        <p class="section-subtitle">We’d love to hear from you. Fill out the form below and we’ll get back to you soon.</p>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-group">
+            <label for="name">Name<span aria-hidden="true">*</span></label>
+            <input type="text" id="name" name="name" required placeholder="Your full name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email<span aria-hidden="true">*</span></label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com">
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message<span aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+          </div>
+
+          <button type="submit" class="btn">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
